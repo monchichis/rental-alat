@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body.pushable{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+.pusher{
+	background: rgb(230, 230, 230) !important;
+}
+#first-segment{
+    padding: 0 !important;
+    background-image: url('../assets/bg1.jpg') !important;
+    height: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+.filterDiv {
+    display: none;
+}
+.brand{
+    font-size: 50px;
+}
+#tn-navbar{
+    margin: 0 20px 0 20px;
+}
+#tn-sbar{
+    background: none;
+}
+#tn-hamb{
+    background-color: rgba(255, 255, 255, .0);
+    color: white;
+    padding: 15px 0 0 20px;
+}
+#tn-invbut{
+    margin: 8px 8px 0 0;
+    float: right;
+}
+.ui.sidebar {
+    overflow: visible !important;
+}
+.ui.center.aligned.header{
+    margin: 0 auto !important;
+}
+.ui.modal > .header{
+    padding: 10px !important;
+}
+#btn-submit{
+    margin: 0;
+}
+.masthead.segment {
+    min-height: 100vh;
+    padding: 1em 0em;
+}
+#text{
+    color: white;
+}
+.masthead h1.ui.header {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+.greetings{
+    float: right;
+    margin-top: 10%;
+    margin-right: 20px;
+}
+.greetings p{
+    font-size: 18px;
+}
+.brands{
+    font-size: 40px;
+    font-weight: 400;
+}
+.show {
+    display: block;
+}
+main{
+    margin: 0 20px 20px 20px !important;
+}
+.ui.link.cards .card, a.ui.card {
+    margin: 15px 10px !important;
+}
+.ui.header:first-child {
+    margin-top: 12px !important;
+}
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
+.penutup{
+    text-align: center;
+}
+/*Media Queries*/
+@media screen and (min-width: 767px){
+    #tn-sbar{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    #tn-navbar{
+        display: none;
+    }
+    #tn-button{
+        margin: 10px !important;
+        float: right !important;
+    }
+    .ui.input>input{
+        width: 235px;
+        margin: 10px !important;
+    }
+    .ui.icon.input>i.link.icon {
+        cursor: pointer;
+        margin-right: 7px;
+    }
+    .ui.modal>.actions {
+        padding: 1rem !important;
+    }
+    .greetings{
+        margin-top: 3%;
+        text-align: center;
+    }
+    .greetings p{
+        font-weight: 1000;
+    }
+}
+@media screen and (max-width: 991px){
+    .ui.modal>.close {
+        top: .5rem !important;
+        right: .5rem !important;
+    }
+}
